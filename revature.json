@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/CombineStringsTest.java",
+      "testCases": [
+        {
+          "methodName": "combineTest1",
+          "label": "Verify combining two alphabetic strings",
+          "description": "Checks that combine(\"abc\", \"xyz\") returns the concatenated string \"abcxyz\"."
+        },
+        {
+          "methodName": "combineTest2",
+          "label": "Verify combining two numeric strings",
+          "description": "Checks that combine(\"123\", \"456\") returns the concatenated string \"123456\"."
+        }
+      ]
+    }
+  ]
+}
